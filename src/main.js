@@ -1,3 +1,6 @@
+require('http').createServer((req, res) => res.end('alive')).listen();
+
+//============START==================
 const Eris = require('eris');
 const path = require('path');
 

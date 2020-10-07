@@ -1,3 +1,6 @@
+require('http').createServer((req, res) => res.end('alive')).listen();
+
+
 // Verify NodeJS version
 const nodeMajorVersion = parseInt(process.versions.node.split('.')[0], 10);
 if (nodeMajorVersion < 10) {
